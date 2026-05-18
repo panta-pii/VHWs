@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="VHW2128139" Class="AddUserDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-QFSTNQ7\SQLEXPRESS;Initial Catalog=VHW2128139;Integrated Security=True" SettingsObjectName="VHWs.Properties.Settings" SettingsPropertyName="VHW2128139ConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Users" Member="Users">
+    <Type Name="User">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="user_name" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="password" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="contacts" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="age" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="address" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>

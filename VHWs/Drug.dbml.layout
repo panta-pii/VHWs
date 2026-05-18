@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Drug">
+  <DataContextMoniker Name="/DrugDataContext" />
+  <nestedChildShapes>
+    <classShape Id="f1e77af0-737a-4f95-a4d8-de7f65627017" absoluteBounds="2, 1.625, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/DrugDataContext/Drug" />
+      <nestedChildShapes>
+        <elementListCompartment Id="92558858-d858-4ce5-9dec-1cc92f6fab47" absoluteBounds="2.015, 2.085, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2ba759fd-4473-4f80-84d6-daee4b7243e8" absoluteBounds="4.875, 1.5, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/DrugDataContext/DeletedRecord" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3fd75222-698b-4ed2-9fbb-8fa7de3f267b" absoluteBounds="4.89, 1.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(4 : 2.41429768880208); (4.875 : 2.41429768880208)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DrugDataContext/Drug/Drug_DeletedRecord" />
+      <nodes>
+        <classShapeMoniker Id="f1e77af0-737a-4f95-a4d8-de7f65627017" />
+        <classShapeMoniker Id="2ba759fd-4473-4f80-84d6-daee4b7243e8" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
